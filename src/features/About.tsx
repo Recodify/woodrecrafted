@@ -45,28 +45,6 @@ export default function AboutPage() {
                     </div>
                 </div>
 
-                <div className="mt-16">
-                    <h2 className="text-2xl font-semibold text-gray-800 mb-6">Meet the Team</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {[
-                            { name: "John Smith", role: "Master Craftsman & Founder", image: "/images/team1.jpg" },
-                            { name: "Emily Johnson", role: "Designer & Project Manager", image: "/images/team2.jpg" },
-                            { name: "Michael Brown", role: "Finish Specialist", image: "/images/team3.jpg" }
-                        ].map((member, index) => (
-                            <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
-                                <img
-                                    src={member.image}
-                                    alt={member.name}
-                                    className="w-full h-64 object-cover"
-                                />
-                                <div className="p-6">
-                                    <h3 className="text-xl font-semibold text-gray-800 mb-1">{member.name}</h3>
-                                    <p className="text-amber-700">{member.role}</p>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
             </div>
         </>
     )

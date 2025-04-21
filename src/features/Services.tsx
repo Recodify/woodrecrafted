@@ -14,6 +14,12 @@ export default function ServicesPage() {
 
                 <div className="space-y-16">
                     {[
+                         {
+                            title: "Garden and Outdoor",
+                            description: "Our custom cabinetry solutions are designed to maximize both beauty and functionality in your space. We specialize in kitchen cabinets, bathroom vanities, built-ins, and storage solutions that make the most of your available space.",
+                            features: ["Detailed measurements and space planning", "Premium hardware options", "Soft-close drawers and doors", "Custom storage solutions"],
+                            image: "/images/cabinetry-service.jpg"
+                        },
                         {
                             title: "Custom Furniture",
                             description: "We create one-of-a-kind furniture pieces tailored to your specific needs and aesthetic preferences. From dining tables and chairs to entertainment centers and bookcases, our custom furniture is built to last for generations.",
@@ -21,22 +27,10 @@ export default function ServicesPage() {
                             image: "/images/furniture-service.jpg"
                         },
                         {
-                            title: "Cabinetry",
-                            description: "Our custom cabinetry solutions are designed to maximize both beauty and functionality in your space. We specialize in kitchen cabinets, bathroom vanities, built-ins, and storage solutions that make the most of your available space.",
-                            features: ["Detailed measurements and space planning", "Premium hardware options", "Soft-close drawers and doors", "Custom storage solutions"],
-                            image: "/images/cabinetry-service.jpg"
-                        },
-                        {
                             title: "Restoration & Repair",
                             description: "Breathe new life into your treasured wooden pieces with our expert restoration services. We can repair damaged furniture, restore antiques, and refinish surfaces to bring back their original beauty or update them with a fresh look.",
                             features: ["Structural repairs", "Surface refinishing", "Hardware replacement", "Color matching"],
                             image: "/images/restoration-service.jpg"
-                        },
-                        {
-                            title: "Commercial Projects",
-                            description: "We work with businesses to create custom woodwork for offices, restaurants, retail spaces, and more. From reception desks and conference tables to retail displays and restaurant fixtures, we can enhance your commercial space with beautiful, functional woodwork.",
-                            features: ["Durable construction for high-traffic areas", "Brand-aligned design elements", "ADA compliance options", "Installation services"],
-                            image: "/images/commercial-service.jpg"
                         }
                     ].map((service, index) => (
                         <div key={index} className={`flex flex-col ${index % 2 === 1 ? 'md:flex-row-reverse' : 'md:flex-row'} gap-8`}>
