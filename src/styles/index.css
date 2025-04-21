@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #b45309;   /* amber-700 */
+  --secondary: #92400e; /* amber-800 */
+  --tertiary: #f3f4f6;  /* gray-100 */
+  --accent: #fcd34d;    /* amber-300 */
+  --title-decoration: #b45309; /* amber-700 */
+  --highlight: #fbbf24; /* amber-400 */
+}
