@@ -33,7 +33,7 @@ export const projects = [
         title: 'Fire Wood Store',
         description: 'Weather-resistant firewood storage solution with proper ventilation and rustic design',
         category: 'Garden and Outdoor',
-        image: '../images/woodstore.png'
+        image: '../images/woodstore2.png'
     },
     {
         id: 6,
@@ -61,7 +61,7 @@ export const projects = [
         title: 'Sash Window Restoration',
         description: 'Complete restoration of period sash windows with careful preservation of original features',
         category: 'Restoration',
-        image: '../images/sashwindow.png'
+        image: '../images/sashwindow2.png'
     },
     {
         id: 10,
