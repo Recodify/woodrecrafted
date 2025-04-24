@@ -1,53 +1,6 @@
+import { getHomePageProjects } from "@/data/projects";
 import { ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-
-const projects = [
-
-    {
-        id: 1,
-        title: 'Fire Wood Store',
-        description: 'Weather-resistant firewood storage solution with proper ventilation and rustic design',
-        category: 'Garden and Outdoor',
-        image: '../images/woodstore.png'
-    },
-
-    {
-        id: 2,
-        title: 'Victorian Style Internal Window Shutters',
-        description: 'Period-authentic window shutters with adjustable louvers and hand-painted finish',
-        category: 'Custom',
-        image: '../images/shutters.png'
-    },
-
-    {
-        id: 3,
-        title: 'Sash Window Restoration',
-        description: 'Complete restoration of period sash windows with careful preservation of original features',
-        category: 'Restoration',
-        image: '../images/sashwindow.png'
-    },
-    {
-        id: 4,
-        title: 'Treehouse',
-        description: 'Custom-designed treehouse with swing and slide',
-        category: 'Garden and Outdoor',
-        image: '../images/treehouse.jpg'
-    },
-    {
-        id: 5,
-        title: 'Whisky Barrel Planters',
-        description: 'Repurposed authentic whisky barrels transformed into elegant garden planters',
-        category: 'Garden and Outdoor',
-        image: '../images/planter.png'
-    },
-    {
-        id: 6,
-        title: 'Car Port Doors',
-        description: 'Durable hardwood carport doors with custom hardware and weather-resistant finish',
-        category: 'Garden and Outdoor',
-        image: '../images/carport.jpg'
-    }
-];
 
 // Services data
 const services = [
@@ -71,6 +24,7 @@ const services = [
 // Home Content Component
 export default function HomePage() {
     const navigate = useNavigate()
+    const projects = getHomePageProjects();
     return (
         <>
             <div className="relative">
