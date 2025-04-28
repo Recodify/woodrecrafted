@@ -52,9 +52,9 @@ export default function ContactPage() {
                                 >
                                     <option value="">Select a project type</option>
                                     <option value="furniture">Custom Furniture</option>
-                                    <option value="cabinetry">Cabinetry</option>
-                                    <option value="restoration">Restoration</option>
-                                    <option value="commercial">Commercial Project</option>
+                                    <option value="bits">Bits & Bobs</option>
+                                    <option value="restoration">Restoration & Repair</option>
+                                    <option value="garden">Garden & Outdoor</option>
                                     <option value="other">Other</option>
                                 </select>
                             </div>
@@ -79,14 +79,14 @@ export default function ContactPage() {
                     </div>
 
                     <div className="lg:w-1/2">
-                        <div className="bg-gray-100 p-8 rounded-lg h-full">
+                        <div className="bg-gray-100 p-8 pt-16 pl-16 rounded-lg h-full">
                             <h2 className="text-2xl font-semibold text-gray-800 mb-6">Visit Our Workshop</h2>
                             <div className="space-y-6">
                                 <div className="flex items-start">
                                     <MapPin size={24} className="text-amber-700 mr-4 flex-shrink-0" />
                                     <div>
                                         <h3 className="font-medium text-gray-800">Address</h3>
-                                        <p className="text-gray-600">123 Woodworking Lane<br />Craftsville, CA 90210</p>
+                                        <p className="text-gray-600">Paddingham House<br />Bristol Road <br /> Winscombe<br /> BS25 1PW</p>
                                     </div>
                                 </div>
 
@@ -94,7 +94,7 @@ export default function ContactPage() {
                                     <Phone size={24} className="text-amber-700 mr-4 flex-shrink-0" />
                                     <div>
                                         <h3 className="font-medium text-gray-800">Phone</h3>
-                                        <p className="text-gray-600">(555) 123-4567</p>
+                                        <p className="text-gray-600">07551545656</p>
                                     </div>
                                 </div>
 
@@ -102,27 +102,9 @@ export default function ContactPage() {
                                     <Mail size={24} className="text-amber-700 mr-4 flex-shrink-0" />
                                     <div>
                                         <h3 className="font-medium text-gray-800">Email</h3>
-                                        <p className="text-gray-600">info@yourwoodworkingbusiness.com</p>
+                                        <p className="text-gray-600">sam@recodify.co.uk</p>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div className="mt-8">
-                                <h3 className="font-medium text-gray-800 mb-3">Hours</h3>
-                                <ul className="space-y-2 text-gray-600">
-                                    <li className="flex justify-between">
-                                        <span>Monday - Friday</span>
-                                        <span>9:00 AM - 6:00 PM</span>
-                                    </li>
-                                    <li className="flex justify-between">
-                                        <span>Saturday</span>
-                                        <span>10:00 AM - 4:00 PM</span>
-                                    </li>
-                                    <li className="flex justify-between">
-                                        <span>Sunday</span>
-                                        <span>Closed</span>
-                                    </li>
-                                </ul>
                             </div>
 
                             <div className="mt-8">
