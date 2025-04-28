@@ -54,11 +54,21 @@ export default function HomePage() {
                     <div className="md:w-1/2">
                         <h2 className="text-3xl font-semibold text-gray-800 mb-6">About Our Craft</h2>
                         <p className="text-gray-600 mb-4">
-                            Welcome to Wood Crafted, where passion meets precision. With over 15 years of experience, we specialize in creating custom wood pieces that blend functionality with artistry.
+                            Welcome to a world of bespoke woodworking that transforms homes inside and out.
+                            From garden benches and treehouse retreats to heritage restoration, custom furniture or elegant storage solutions,
+                            our workshop brings your vision to life through skilled craftsmanship.
                         </p>
                         <p className="text-gray-600 mb-6">
-                            Every project begins with understanding your vision and ends with a meticulously crafted piece that will stand the test of time. We source sustainable materials and employ traditional joinery techniques alongside modern technology.
+                            Each project showcases our commitment to thoughtful design, quality materials, and precise execution.
                         </p>
+                         <p className="text-gray-600 mb-6">
+                            What sets us apart is our understanding that woodwork isn't just about creating something beautiful, it's about enhancing how you experience your home.
+                            Each piece is thoughtfully designed to serve your needs while expressing a distinctive character and your personal taste.
+                        </p>
+                        <p className="text-gray-600 mb-6">
+                            Discover how our hands can transform raw timber into the spaces and pieces that will become part of your everyday
+                        </p>
+
                         <button
                             className="border-2 border-amber-700 text-amber-700 hover:bg-amber-700 hover:text-white py-2 px-6 rounded-md transition duration-300"
                             onClick={() => navigate('/about')}
