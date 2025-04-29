@@ -12,14 +12,14 @@ const Navigation = () => {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <span className="text-2xl font-bold text-amber-700">Wood Crafted</span>
+              <span className="text-2xl font-bold text-amber-700">Wood Recrafted</span>
             </div>
           </div>
 
           <nav className="hidden md:flex space-x-8">
             {[
               { name: 'Home', path: '/' },
-              { name: 'About', path: '/about' },
+            //   { name: 'About', path: '/about' },
               { name: 'Services', path: '/services' },
               { name: 'Portfolio', path: '/portfolio' },
               { name: 'Contact', path: '/contact' }
@@ -58,7 +58,7 @@ const Navigation = () => {
           <div className="pt-2 pb-3 space-y-1">
             {[
               { name: 'Home', path: '/' },
-              { name: 'About', path: '/about' },
+            //   { name: 'About', path: '/about' },
               { name: 'Services', path: '/services' },
               { name: 'Portfolio', path: '/portfolio' },
               { name: 'Contact', path: '/contact' }

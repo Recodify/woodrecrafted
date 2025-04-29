@@ -16,7 +16,9 @@ export const services = [
             "Installation and setup included"
         ],
         image: "../images/woodstore2.png",
-        link: "/portfolio?category=Garden+%26+Outdoor"
+        link: "/portfolio?category=Garden+%26+Outdoor",
+        icon: 'G',
+        showOnHome: true
     },
     {
         title: "Custom Furniture",
@@ -34,7 +36,9 @@ export const services = [
             "Unique finishes and detailing"
         ],
         image: "../images/bootroom.jpg",
-        link: "/portfolio?category=Custom+Furniture"
+        link: "/portfolio?category=Custom+Furniture",
+        icon: 'F',
+        showOnHome: true
     },
     {
         title: "Restoration & Repair",
@@ -49,7 +53,9 @@ export const services = [
             "Careful restoration to preserve original character"
         ],
         image: "../images/sashwindow2.png",
-        link: "/portfolio?category=Restoration+%26+Repair"
+        link: "/portfolio?category=Restoration+%26+Repair",
+        icon: 'R',
+        showOnHome: true
     },
     {
         title: "Bits & Bobs",
@@ -64,6 +70,12 @@ export const services = [
             "Seasonal and decorative options"
         ],
         image: '../images/xmastree.jpg',
-        link: "/portfolio?category=Bits+%26+Bobs"
+        link: "/portfolio?category=Bits+%26+Bobs",
+        icon: 'B',
+        showOnHome: false
     }
 ]
+
+export function getHomepageServices(){
+    return services.filter(x => x.showOnHome);
+}

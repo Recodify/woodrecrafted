@@ -79,9 +79,9 @@ export default function ContactPage() {
                     </div>
 
                     <div className="lg:w-1/2">
-                        <div className="bg-gray-100 p-8 pt-16 pl-16 rounded-lg h-full">
-                            <h2 className="text-2xl font-semibold text-gray-800 mb-6">Visit Our Workshop</h2>
-                            <div className="space-y-6">
+                        <div className="bg-gray-100 p-8 rounded-lg h-full">
+                            <h2 className="text-2xl font-semibold text-gray-800 mb-12">Visit Our Workshop</h2>
+                            <div className="space-y-12 text-xl pl-8">
                                 <div className="flex items-start">
                                     <MapPin size={24} className="text-amber-700 mr-4 flex-shrink-0" />
                                     <div>
@@ -107,7 +107,7 @@ export default function ContactPage() {
                                 </div>
                             </div>
 
-                            <div className="mt-8">
+                            <div className="mt-8 pl-8">
                                 <h3 className="font-medium text-gray-800 mb-3">Connect With Us</h3>
                                 <div className="flex space-x-4">
                                     <a href="#" className="text-amber-700 hover:text-amber-800">

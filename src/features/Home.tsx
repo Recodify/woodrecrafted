@@ -1,34 +1,17 @@
 import { getHomePageProjects } from "@/data/projects";
 import { ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-
-// Services data
-const services = [
-    {
-        title: 'Garden and Outdoor',
-        description: 'Kitchen, bathroom, and storage cabinets designed for both beauty and functionality.',
-        icon: 'C'
-    },
-    {
-        title: 'Custom Furniture',
-        description: 'Handcrafted tables, chairs, bookcases, and more tailored to your specific needs and style.',
-        icon: 'M'
-    },
-    {
-        title: 'Restoration',
-        description: 'Bring your treasured wood pieces back to life with our expert restoration services.',
-        icon: 'R'
-    }
-];
+import { getHomepageServices } from "@/data/services";
 
 // Home Content Component
 export default function HomePage() {
     const navigate = useNavigate()
     const projects = getHomePageProjects();
+    const services = getHomepageServices();
     return (
         <>
             <div className="relative">
-                <div className="w-full h-96 bg-gray-800 flex items-center justify-center overflow-hidden">
+                <div className="w-full h-72 bg-gray-800 flex items-center justify-center overflow-hidden">
 
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
                         <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Craftsmanship in Every Detail</h1>
@@ -85,7 +68,7 @@ export default function HomePage() {
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-semibold text-gray-800 mb-4">Our Services</h2>
                         <p className="text-gray-600 max-w-3xl mx-auto">
-                            We offer a wide range of woodworking services to meet your unique needs, from custom furniture to specialized commercial projects.
+                            We offer a wide range of woodworking services to meet your unique needs, from custom furniture, to garden, outdoor, repair, restoration or anything else you can think up, just ask.
                         </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
